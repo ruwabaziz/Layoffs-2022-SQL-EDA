@@ -138,5 +138,23 @@ JOIN layoffs_stagging2 t2
 SET t1.industry=t2.industry 
 WHERE t1.industry IS NULL 
 AND t2.industry IS NOT NULL;
+
+
+SELECT*
+FROM layoffs_stagging2
+WHERE total_laid_off IS NULL
+AND percentage_laid_off IS NULL;
+
+DELETE
+FROM layoffs_stagging2
+WHERE total_laid_off IS NULL
+AND percentage_laid_off IS NULL;
+
+SELECT*
+FROM layoffs_stagging2;
+
+ALTER TABLE layoffs_stagging2
+DROP COLUMN row_num;
+
   
 
