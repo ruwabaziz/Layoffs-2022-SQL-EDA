@@ -97,7 +97,9 @@ https://www.kaggle.com/datasets/swaptr/layoffs-2022
 
 ## 👨‍💻 Author
 
-Developed by Ruwab Aziz 
+Developed by Ruwab Aziz
+
+
 GitHub: https://github.com/ruwabaziz  
 
 ---
